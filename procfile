@@ -1,0 +1,1 @@
+web: gunicorn slide_annotation-tool.wsgi --log-file -

@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '!n%y4282x-wtckoc38%hprry6es@=dn*+vf_l%afe-htq$o*7x'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['localhost', 'hegde.lan']
+ALLOWED_HOSTS = ['127.0.0.1', 'hegde.lan']
 
 
 # Application definition
