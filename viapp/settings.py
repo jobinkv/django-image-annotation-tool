@@ -25,7 +25,7 @@ SECRET_KEY = '!n%y4282x-wtckoc38%hprry6es@=dn*+vf_l%afe-htq$o*7x'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'hegde.lan']
+ALLOWED_HOSTS = ['127.0.0.1', 'slide-annotation-tool.herokuapp.com']
 
 
 # Application definition
@@ -51,6 +51,7 @@ REST_FRAMEWORK = {
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
