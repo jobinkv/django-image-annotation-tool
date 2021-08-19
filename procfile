@@ -1,1 +1,1 @@
-web: gunicorn slide_annotation-tool.wsgi --log-file -
+web: gunicorn django-image-annotation-tool.wsgi --log-file -
