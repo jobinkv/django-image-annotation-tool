@@ -17,7 +17,7 @@ from django.conf.urls import url, include
 from django.contrib import admin
 from django.views.static import serve
 from rest_framework import routers
-
+from django.conf import settings
 from image_metadata import views
 
 router = routers.DefaultRouter()
